@@ -1,0 +1,871 @@
+#head1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#head2 {
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+}
+
+.box {
+    height: 280px;
+    width: 270px;
+    background-color: rgb(0, 131, 116);
+    color: white;
+    border-radius: 10px;
+}
+
+.box:link {
+    color: white;
+    opacity: 1;
+}
+
+
+.box:hover {
+    color: white;
+    opacity: 1;
+    background-color: rgb(26, 143, 130);
+}
+
+
+.impact {
+    height: 650px;
+}
+
+.box-container {
+    position: relative;
+    margin-top: -160px;
+}
+
+@media screen and (max-width:576px) {
+    .impact {
+        height: 1960px;
+    }
+
+    .box-container {
+        position: relative;
+        margin-top: -1150px;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+.about h3 {
+    padding: 80px;
+    font-size: 30px;
+
+}
+
+.about h3::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 15px 100px 15px 43px;
+}
+
+.about h6 {
+    margin-top: -90px;
+}
+
+@media screen and (max-width:576px) {
+    .about h3 {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .about h6 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .about h3::after {
+
+        margin: 10px 30px 10px 35px;
+        width: 40px;
+
+    }
+}
+
+#about1 {
+    margin-top: 30px;
+}
+
+#about1 h3 {
+    font-size: 32px;
+}
+
+#about1 img {
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:567px) {
+
+    #about1 h3 {
+        font-size: 29px;
+    }
+
+    #about1 img {
+        width: 100%;
+        height: 250px;
+
+    }
+
+}
+
+#about2 {
+    padding-top: 40px;
+}
+
+#about2 p {
+    font-size: 17px;
+}
+
+
+
+#about2 ul li {
+    list-style-image: url('check-circle 3.png');
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+
+#about2 img {
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    margin: 0px 40px 20px 45px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+#image3 {
+    position: absolute;
+    z-index: 2;
+    font-size: 70px;
+    margin-top: 120px;
+    padding-left: 260px;
+    color: rgb(0, 131, 116);
+}
+
+@media screen and (max-width:567px) {
+    #image3 {
+        font-size: 50px;
+        margin-top: 110px;
+        padding-left: 140px;
+    }
+
+    #about2 img {
+        width: 100%;
+    }
+}
+
+
+#para {
+    padding-left: 60px;
+
+}
+
+#para2 {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    #about2 ul li {
+        margin-left: 0px;
+        font-size: 15px;
+
+    }
+
+    #about2 img {
+        width: 300px;
+        height: 250px;
+        margin: 10px 30px 30px 20px;
+
+    }
+
+    #para {
+        padding-left: 2px;
+        margin-top: -25px;
+    }
+
+    #para2 {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+}
+
+#logo {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+
+}
+
+@media screen and (max-width:576px) {
+    #logo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+        margin-left: -10px;
+        margin-right: 80px;
+
+    }
+
+
+}
+
+#image img {
+    margin-top: 80px;
+    width: 450px;
+    height: 300px;
+
+}
+
+#image1 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#image2 {
+    margin-top: 100px;
+    margin-right: -100px;
+}
+
+@media screen and (max-width:576px) {
+    #image img {
+        width: 350px;
+        height: 200px;
+        text-align: center;
+
+    }
+
+    #image1 {
+        margin-left: -10px;
+        margin-top: -3px;
+    }
+
+    #image2 {
+        margin-top: -5px;
+    }
+
+}
+
+#building {
+    background-image: url("https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg");
+    width: 1600px;
+    height: 550px;
+    background-attachment: fixed;
+    border-radius: 30px;
+    background-color: transparent;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width:567px) {
+
+    #building {
+        background-image: url("https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg");
+        width: 400px;
+        height: 520px;
+        background-attachment: fixed;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+
+    }
+}
+
+
+#services1 {
+    padding: 80px;
+    font-size: 30px;
+    position: relative;
+
+}
+
+#services1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 15px 100px 15px 60px;
+
+}
+
+#services2 {
+    margin-top: -60px;
+}
+
+@media screen and (max-width:576px) {
+    #services1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #services2 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #services1::after {
+
+        margin: 10px 60px 10px 65px;
+        width: 45px;
+    }
+}
+
+#box2 {
+    margin-top: 60px;
+}
+
+#box3 {
+    margin-top: 60px;
+}
+
+.box1 {
+    padding-top: 25px;
+}
+
+#box4 h4::after {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+
+}
+
+
+
+#box5 h4::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+#box6 h4::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+#box7 h4::after {
+    content: "";
+    position: absolute;
+    width: 235px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+#box8 h4::after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+#box8 h4::after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+#box9 h4::after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 1px 15px 1px;
+    opacity: 0.1;
+}
+
+@media screen and (max-width:567px) {
+    #box2 {
+
+        width: 350px;
+        height: 100px;
+        margin-left: -1px;
+        margin-right: 0px;
+    }
+
+    #box3 {
+        width: 350px;
+        height: 100px;
+        margin-left: 1px;
+        margin-right: -10px;
+        margin-top: 1100px;
+    }
+
+    #box4 h4::after {
+        content: "";
+        position: absolute;
+        width: 140px;
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 10px 1px 15px 1px;
+    }
+
+    #box5 h4::after {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 10px 1px 15px 1px;
+    }
+
+    #box6 h4::after {
+        content: "";
+        position: absolute;
+        width: 110px;
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 10px 1px 15px 1px;
+    }
+
+    #box7 h4::after {
+        content: "";
+        position: absolute;
+        width: 210px;
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 10px 1px 15px 1px;
+    }
+
+    #box8 h4::after {
+        content: "";
+        position: absolute;
+        width: 170px;
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 10px 1px 15px 1px;
+    }
+
+}
+
+#Testimonials1 {
+    padding: 80px;
+    font-size: 35px;
+    position: relative;
+
+}
+
+#Testimonials1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 15px 100px 15px 75px;
+
+}
+
+#Testimonials2 {
+    margin-top: -80px;
+}
+
+@media screen and (max-width:567px) {
+
+    #Testimonials1 {
+        padding-top: 1100px;
+        font-size: 35px;
+        position: relative;
+
+    }
+
+    #Testimonials1::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        display: block;
+        background-color: rgb(0, 131, 116);
+        margin: 15px 100px 15px 75px;
+
+    }
+
+    #Testimonials2 {
+        padding-top: -500px;
+        text-align: center;
+    }
+}
+
+#Portfolio1 {
+    margin-top: 70px;
+    font-size: 35px;
+}
+
+#Portfolio1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 60px 15px 50px;
+}
+
+#app img:hover {
+    transform: scale(1.01)
+}
+
+#product img:hover {
+    transform: scale(1.01)
+}
+
+#book img:hover {
+    transform: scale(1.01)
+}
+
+#branding img:hover {
+    transform: scale(1.01)
+}
+
+#list:hover {
+
+    color: rgb(0, 131, 116);
+}
+
+@media screen and (max-width:567px) {
+
+    #Portfolio2 {
+        display: flex;
+        text-align: center;
+    }
+
+    #list {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin-top: -25px;
+        margin-right: -20px;
+    }
+
+    #all1 {
+        margin-top: -50px;
+        width: 370px;
+    }
+
+    #all2 {
+
+        margin-top: -50px;
+        width: 370px;
+        margin-left: -12px;
+    }
+
+    #all3 {
+
+        margin-top: -50px;
+        width: 370px;
+        margin-left: -12px;
+
+    }
+
+    #all4 {
+        margin-left: -12px;
+        margin-top: -50px;
+        width: 370px;
+
+    }
+}
+
+#team i {
+    border-radius: 30px;
+    color: silver;
+    border: 2px solid;
+    padding: 3px 6px;
+}
+
+#team1 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+#team1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 60px 15px 60px;
+}
+
+#team i:hover {
+    color: rgb(0, 131, 116);
+}
+
+
+@media screen and (max-width:567px) {
+    #team2 {
+        display: flex;
+        text-align: center;
+    }
+
+    #team {
+        width: 350px;
+        margin-left: 25px;
+    }
+}
+
+#pricing1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#pricing1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 60px 15px 40px;
+}
+
+.pricingbox1 button:hover {
+    background-color: rgb(0, 131, 116);
+    color: white;
+}
+
+.pricingbox2 button:hover {
+    background-color: rgb(0, 131, 116);
+    color: white;
+}
+
+.pricingbox3 button:hover {
+    background-color: rgb(0, 131, 116);
+    color: white;
+}
+
+#price {
+    background-color: rgb(0, 131, 116);
+    padding: 20px 25px;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width:567px) {
+    #pricing2 {
+        display: flex;
+        text-align: center;
+    }
+
+    .princing4 {
+        margin-top: -70px;
+    }
+
+    .pricingbox2 {
+        height: 900px;
+    }
+
+    .pricingbox2 i span {
+        font-size: 15px;
+    }
+
+}
+
+#number:first-letter {
+    color: rgb(0, 131, 116);
+}
+
+@media screen and (max-width:567px) {
+    #accordionFlushExample {
+        margin-top: -60px;
+    }
+
+}
+
+#blog1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#blog1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 200px 15px 135px;
+}
+
+@media screen and (max-width:567px) {
+    #blog2 {
+        display: flex;
+        text-align: center;
+    }
+
+    #blog1 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    #blog1::after {
+        margin: 10px 200px 15px 120px;
+    }
+}
+
+#blogbox h4:hover {
+    color: rgb(0, 131, 116);
+}
+
+
+@media screen and (max-width:567px) {
+    #blogbox {
+        display: grid;
+    }
+}
+
+
+#contect1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#contect1::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(0, 131, 116);
+    margin: 10px 60px 15px 50px;
+}
+
+#cont1 {
+    background-color: rgb(72, 166, 155);
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+
+#cont1:hover {
+    background-color: white;
+    color: rgb(0, 131, 116);
+}
+
+@media screen and (max-width:567px) {
+    #contect2 {
+        display: flex;
+        text-align: center;
+    }
+
+    #textarea {
+        width: 330px;
+    }
+
+    #button {
+        margin-left: -150px;
+        margin-top: -20px;
+    }
+
+    #footer3 {
+        text-align: center;
+    }
+
+
+}
+
+#fimpact i {
+    text-align: start;
+    font-size: 15px;
+    opacity: 0.5;
+    border-radius: 30px;
+    color: silver;
+    border: 2px solid;
+    padding: 7px 10px;
+}
+
+#fimpact i:hover {
+
+    opacity: 1;
+}
+
+#fcontect a {
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#fservices a {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+#fservices a:hover {
+    opacity: 1;
+}
+
+#fcontect a:hover {
+    opacity: 1;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 131, 116);
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+
+
+}
