@@ -1,3 +1,21 @@
+/* head1 */
+
+.hd:hover {
+    text-decoration: underline;
+}
+
+.hd {
+    text-decoration: none;
+}
+
+#bi {
+    color: silver;
+}
+
+#bi:hover {
+    color: white;
+}
+
 #head1 {
     position: fixed;
     top: 0;
@@ -5,10 +23,53 @@
     z-index: 5;
 }
 
+/* head 2 */
+
 #head2 {
     position: fixed;
     top: 20px;
     z-index: 5;
+}
+
+/* impact */
+#imp {
+    border-radius: 50px;
+    border-color: rgb(43, 152, 139);
+    border-width: 1px;
+    background-color: rgb(26, 144, 130);
+    padding: 13px 50px 13px 50px;
+}
+#imp1{
+    padding-top:150px;
+}
+#imp2{
+    padding-top:130px;
+}
+
+@media screen and(max-width:576px) {
+    #imp2{
+      padding-top:20px;
+    }
+    
+}
+#imp:hover{
+    border-color:silver;
+}
+#cir{
+    color: silver;
+    text-decoration: none;
+    font-size:30px;
+}
+
+#watch{
+font-size:14px; 
+font-weight:700;
+ color:white;
+}
+
+#cir:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .box {

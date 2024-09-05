@@ -20,19 +20,20 @@
 
 <body>
   <section>
+    <!-- head1 -->
     <div class="container-fluid "id="head1"
       style="background-color: rgb(0,118,104); font-size:normal; height:80px;">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-6 text-center text-sm-start text-light" style="padding-top:10px;">
-            <i class="bi bi-envelope"> contact@example.com</i> &nbsp;
+            <i class="bi bi-envelope"><a class="hd text-light" href="mailto:contact@example.com" > contact@example.com</a> </i> &nbsp;
             <i class="bi bi-phone">+1 5589 55488 </i>
           </div>
-          <div class="col-sm-6 text-end d-none d-sm-block text-light" style=" opacity: 0.5; padding-top:10px;">
-            <i class="bi bi-twitter-x"></i>&nbsp;&nbsp;
-            <i class="bi bi-facebook"></i> &nbsp;&nbsp;
-            <i class="bi bi-instagram"></i> &nbsp;&nbsp;
-            <i class="bi bi-linkedin"></i>
+          <div class="col-sm-6 text-end d-none d-sm-block " style="padding-top:10px;">
+            <i class="bi bi-twitter-x" id="bi"></i>&nbsp;&nbsp;
+            <i class="bi bi-facebook" id="bi"></i> &nbsp;&nbsp;
+            <i class="bi bi-instagram" id="bi"></i> &nbsp;&nbsp;
+            <i class="bi bi-linkedin" id="bi"></i>
           </div>
 
         </div>
@@ -41,9 +42,10 @@
   </section>
 
   <section>
+    <!-- head2 -->
     <div class="container-fluid" style="background-color: rgb(0,131,116); margin-top: 20px;" id="head2">
-      <div class="container ">
-        <div class="row ">
+      <div class="container">
+        <div class="row">
           <div class="col-4 text-light" style="padding-top:10px; ">
             <h2><b>Impact</b></h3>
           </div>
@@ -83,13 +85,11 @@
 
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <span><b>Dropdown</b></span>
-
-                      </a>
+                        aria-expanded="false"> <span><b>Dropdown</b></span></a>
 
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -120,21 +120,19 @@
     <div class="container-fluid text-light impact" style="background-color:rgb(0,131,116); ">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-7 order-2 order-sm-1" style="padding-top:130px;">
+          <div class="col-12 col-sm-7 order-2 order-sm-1" id="imp1">
 
             <h1 style="font-size: 45px;"><b>Welcome to Impact</b></h1>
+
             <p style="padding-top:15px; ">Sed autem laudantium dolores.
               Voluptatem itaque ea consequatur eveniet. <br>Eum quas beatae cumque eum quaerat.</p>
-            <button type="button" style="border-radius: 50px; border-color:rgb(43,152,139); 
-            border-width:3px;  background-color:rgb(26,144,130) ;
-              padding:13px 50px 13px 50px;" class="btn btn-dark">
-              Get Started</button> &nbsp;&nbsp;&nbsp;
-            <i class="bi bi-play-circle" style="font-size: 16px;"> Watch Video</i>&nbsp;&nbsp;
-
-
+            <button type="button" id="imp"  class="btn btn-dark">
+              Get Started</button> &nbsp;&nbsp;
+           <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" id="cir"><i class="bi bi-play-circle"></i></a>
+           <span id="watch">&nbsp;Watch Video</span>
           </div>
 
-          <div class="col-12 col-sm-5 order-1 order-sm-2" style="padding-top:110px;">
+          <div class="col-12 col-sm-5 order-1 order-sm-2" id="imp2">
             <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/Impact/assets/img/hero-img.svg"
               alt="not found">
           </div>
