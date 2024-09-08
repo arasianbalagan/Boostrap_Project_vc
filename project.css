@@ -93,11 +93,6 @@ font-weight:700;
     border-radius: 10px;
 }
 
-/* .box:link {
-    color: white;
-    opacity: 1;
-} */
-
 .box:hover {
     color: white;
     opacity: 1;
@@ -228,6 +223,8 @@ font-weight:700;
     padding-left: 260px;
     color: rgb(0, 131, 116);
 }
+
+
 
 @media screen and (max-width:567px) {
     #image3 {
